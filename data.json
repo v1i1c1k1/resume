@@ -1,0 +1,48 @@
+{
+"basics":{
+"photo":"profile.jpg",
+"name":"p.vinitha",
+"email":"vinithapagidala1998@gmail.com",
+"phone":"9441717958"
+},
+
+"education":[
+{
+  "course":"b.tech(computer science and engineering)",
+  "college":["ravindra college engeering for women ",
+  "2015-2019",
+  "60%"
+]
+},
+{
+  "course":"intermediate(mpc)",
+  "college":["narayana junior college",
+    "2014-2015",
+    "60%"
+
+
+  ]
+},
+{
+  "courses":"ssc",
+  "college":["z.p hign school",
+    "2013",
+    "83%"
+  ]
+}
+],
+"skills":[
+  {
+    "name":"operating system",
+    "value":"window,linux"
+  },
+  {
+    "name":"programming language",
+    "value":"c,c++,java"
+  },
+  {
+    "name":"webdevelopment",
+    "value":"HTML,pyton"
+  }
+]
+}

@@ -1,23 +1,39 @@
+
+
+
+
+ table tr,td{
+  border:2px solid #000;
+  border-collapse: collapse;
+margin:3px;
+}
+
+
+
+
+
 .main{
-width:100%;
+
 background-color: #999;
 /* flex box syntax rotation  */
 display: flex;
-flex-direction: row;
+flex-wrap:wrap;
 }
 .left{
-  width:25%;
-  background-color: #c45e45;
+
+  background-color: #c4c4;
   border: 5px solid #000;
   margin: 5px;
   padding:5px
+  flex:1;
 }
 .right{
-  width:70%;
-  background-color: #666;
+
+  background-color: #c4e9eb;
   border: 5px solid  #000;
 margin: 5px ;
 padding:5px;
+flex=1;
 }
 #name{
   color:green;
@@ -37,15 +53,15 @@ padding:5px;
 @media  only screen  and (min-width:1024px)and (max-width:1280px){
   .main{
     display: flex;
-    flex-direction: row;
-    width: 100%;
+    flex-wrap:wrap;
+    flex=1;
   }
 .left{
-  width: 25%;
+  flex=1;
   background-color: #985;
 }
 .right{
-  width: 75%;
+  flex=1;
   background-color: #5436;
 }
 }
@@ -53,14 +69,14 @@ padding:5px;
   .main{
     display: flex;
     flex-direction: row;
-    width: 100%;
+    /* width: 100%; */
   }
   .left{
-  width: 25%;
+  /* width: 25%; */
   background-color: #fff;
   }
   .right{
-  width: 75%;
+  /* width: 75%; */
   background-color: #eee;
   }
   }
@@ -69,15 +85,15 @@ padding:5px;
 @media only screen and (min-width:480px)and(max-width:768px){
   .main{
     display: flex;
-    flex-direction: row;
-    width: 100%;
+    flex-wrap: wrap;
+    /* width: 100%; */
   }
   .left{
-  width: 25%;
+  /* width: 25%; */
   background-color: #c6c6;
   }
   .right{
-  width: 75%;
+  /* width: 75%; */
   background-color: #666;
   }
   }
@@ -85,15 +101,15 @@ padding:5px;
 @media only screen and(max-width:480px){
   .main{
     display: flex;
-    flex-direction: row;
-    width: 100%;
+    flex-wrap:wrap;
+    /* width: 100%; */
   }
   .left{
-  width: 25%;
-  background-color: #985;
+  /* width: 25%; */
+  background-color: #c5dcdb;
   }
   .right{
-  width: 75%;
-  background-color: #cece;
+  /* width: 75%; */
+  background-color: #82dfa6;
   }
   }
